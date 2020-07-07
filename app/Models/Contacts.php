@@ -20,7 +20,7 @@ class Contacts extends Model
 		],
 		'email' => [
 			'label' => 'Email',
-			'rules' => 'required|email',
+			'rules' => 'required|valid_email',
 		],
 		'subject' => [
 			'label' => 'Subject',
