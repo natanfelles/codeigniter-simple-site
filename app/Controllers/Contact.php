@@ -29,7 +29,7 @@ class Contact extends BaseController
 		}
 		return redirect()->route('contact.create')->with('msg', [
 			'type' => 'success',
-			'contents' => 'Contact successful sent.',
+			'contents' => lang('contact.sent'),
 		]);
 	}
 }

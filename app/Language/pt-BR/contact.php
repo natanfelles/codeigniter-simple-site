@@ -7,4 +7,5 @@ return [
 	'message' => 'Mensagem',
 	'error_occur' => 'Ocorreram alguns erros:',
 	'submit' => 'Enviar',
+	'sent' => 'Contato enviado com sucesso.',
 ];
